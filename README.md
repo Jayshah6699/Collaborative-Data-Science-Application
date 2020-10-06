@@ -1,2 +1,4 @@
-# data-scrience-project-mashup
-We are prodigies and we have created the number of projects in data science and we thought why don't we gather all of them so here we are with all of the data science projects of ours at one place.
+# data-science-project-mashup
+Hey!
+We are The Prodigies. Here with a bulk of DATA SCIENCE projects all together for you at one place.
+

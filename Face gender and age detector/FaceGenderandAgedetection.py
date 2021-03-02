@@ -1,4 +1,4 @@
-#Program by Jay Shah
+#Program by Prodigies
 #Face age and gender detector
 
 import cv2    #OpenCV library

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> 
+    <script src="https://kit.fontawesome.com/24a476b79d.js" crossorigin="anonymous"></script>
+    <style>
+      
+      body{
+          background-color: rgb(0, 0, 0);
+      }
+
+      p{
+          font-family:"Poppins";
+          text-align:left;
+          padding: 10px;
+          margin:0px;
+          font-size: 15px;
+      }
+
+      .dwoc-card-front h1{
+        color: white;
+        font-family:"Poppins";
+        margin-top: 0px;
+        font-size: 30px;
+      }
+
+      .project {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          width: 250px;
+          height: fit-content;
+          margin:auto;
+          text-align:center;
+          background-color: white;
+          margin-top: 40px;
+          display: inline-block;
+          margin-left: 40px;
+          border-radius: 25px;
+          padding-bottom: 15px;
+      }
+
+      .title {
+          color:rgb(0, 0, 0);
+          font-size: 14px;
+      }
+      
+      a {
+          color: rgb(0, 0, 0);
+          font-size: 25px;
+      }
+      
+      @import url(https://fonts.googleapis.com/css?family=Montserrat);
+      body{
+      background:black;
+      font-family: Arial;
+      }
+
+      svg {
+        display: block;
+        font: 10.5em 'Montserrat';
+        height: 150px;
+        margin: 0 auto;
+      }
+
+      .text-copy {
+        fill: none;
+        stroke: white;
+        stroke-dasharray: 6% 19%;
+        stroke-width: 4px;
+        stroke-dashoffset: 0%;
+        animation: stroke-offset 4.0s infinite linear;
+      }
+
+      .text-copy:nth-child(1){
+	     stroke: #520b3e;
+       animation-delay: 0s;
+      }
+
+      .text-copy:nth-child(2){
+        stroke: #0313f5;
+        animation-delay: -0.8s;
+        }
+
+      .text-copy:nth-child(3){
+	      stroke: #BD0034;
+        animation-delay: -1.6s;
+      }
+
+      .text-copy:nth-child(4){
+	      stroke: #ff0000;
+        animation-delay: -2.4s;
+      }
+
+      .text-copy:nth-child(5){
+	      stroke: #FDB731;
+        animation-delay: -3.2s;
+      }
+
+      .text-copy:nth-child(6){
+	      stroke: #ffc403;
+        animation-delay: -4.0s;
+      }   
+
+      @keyframes stroke-offset{
+        100% {stroke-dashoffset: -100%;}
+      }
+
+      .open-source{
+        color:white;
+        text-align:center;
+        font-family: "Monserrat";
+        font-size: 40px;
+        margin-top: 15px;
+      }
+
+      .dwoc-card {
+        background-color: transparent;
+        width: 450px;
+        height: 450px;
+        perspective: 1000px; 
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        border-radius:30px;
+      }
+
+      .dwoc-card-struct {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        border-radius:30px;
+      }
+
+      .dwoc-card:hover .dwoc-card-struct {
+        transform: rotateY(180deg);
+      }
+      
+      .dwoc-card-front, .dwoc-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius:30px;
+      }
+
+      .dwoc-card-front {
+        background-color: rgb(19, 0, 192);
+      }
+      
+      .dwoc-card-back {
+        background-color: rgb(255, 255, 255);
+        color: white;
+        transform: rotateY(180deg);
+      }
+
+      .dwoc{
+        margin-top: 15px;
+        margin-bottom: 0px;
+      }
+
+      .dwoc-card-back h1{
+        font-family: "Poppins";
+        vertical-align: middle;
+        font-size: 25px;
+        text-align:center;
+        color:black;
+        font-weight: lighter;
+        margin-top:130px;
+        padding: 10px;
+        margin-bottom: 0px;
+      }
+
+      .dwoc-card-back a{
+        font-family: "Poppins";
+        vertical-align: middle;
+        font-size: 35px;
+        text-align:center;
+        color:black;
+        margin-top: 10px;
+      }
+
+    </style>
+
+</head>
+<body>
+  <svg viewBox="0 0 5920 300">
+    <symbol id="s-text">
+      <text text-anchor="middle" x="30%" y="50%" style="font-kerning:2px;">Collaborative Data Science Applicaion</text>
+    </symbol>
+    <g class = "g-ants">
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+    </g>
+  </svg>
+  <div class="project">
+    <img src="https://github.com/Jayshah6699/Collaborative-Data-Science-Application/blob/main/assets/logos/face%20detector%20and%20age-gender%20classifier.png?raw=true" width=250px height=250px style="margin-top: 25px;">
+    <p class="title">
+      This project is used to detect face and determmine age and gender.
+    </p>
+    <a href = "https://github.com/Jayshah6699/Collaborative-Data-Science-Application/tree/main/Face%20gender%20and%20age%20detector" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+  <div class="project">
+    <img src="https://github.com/Jayshah6699/Collaborative-Data-Science-Application/blob/main/assets/logos/predict%20diabetes.png?raw=true" width=250px height=250px style="margin-top: 25px;">
+    <p class="title">
+    This project is used to predict Diabetes.
+    </p>
+    <a href = "https://github.com/Jayshah6699/Collaborative-Data-Science-Application/tree/main/Diabetes-Prediction-master" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+  <div class="project">
+    <img src="https://github.com/Jayshah6699/Collaborative-Data-Science-Application/blob/main/assets/logos/classify%20email.png?raw=true" width=250px height=250px style="margin-top: 25px;">
+    <p class="title">
+    This project is used to Classify Emails.
+    </p>
+    <a href = "https://github.com/Jayshah6699/Collaborative-Data-Science-Application/tree/main/email_classification" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+  <div class="project">
+    <img src="https://github.com/Jayshah6699/Collaborative-Data-Science-Application/blob/main/assets/logos/classify%20traffic%20signs.png?raw=true" width=250px height=250px style="margin-top: 25px;">
+    <p class="title">
+    This project is used to Classify Traffic Signs.
+    </p>
+    <a href = "https://github.com/Jayshah6699/Collaborative-Data-Science-Application/tree/main/Traffic%20sign%20classification%20with%20interface" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+  <div class="project">
+    <img src="https://github.com/Jayshah6699/Collaborative-Data-Science-Application/blob/main/assets/logos/analyze%20Alexa%20product%20review.png?raw=true" width=250px height=250px style="margin-top: 25px;">
+    <p class="title">
+    This project is used to Analyze Alexa products reviews.
+    </p>
+    <a href = "https://github.com/Jayshah6699/Collaborative-Data-Science-Application/tree/main/Alexa%20Reviews%20Analysis" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+  <div class="project">
+    <img src="https://github.com/Jayshah6699/Collaborative-Data-Science-Application/blob/main/assets/logos/CLassify%20music.png?raw=true" width=250px height=250px style="margin-top: 25px;">
+    <p class="title">
+    This project is used to predict Genre.
+    </p>
+    <a href = "https://github.com/Jayshah6699/Collaborative-Data-Science-Application/tree/main/Music%20genre%20classification" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+</body>
+</html>

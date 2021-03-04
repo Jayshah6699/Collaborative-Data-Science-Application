@@ -14,7 +14,7 @@ Resume of the deep learning approach:
 
 ### Results
 
-To compare the result across multiple architectures, we have took two approaches for this problem: One using the classic approach of extracting features and then using a classifier. The second approach, wich is implemented on the src file here is a Deep Learning approach feeding a CNN with a melspectrogram.
+To compare the result across multiple architectures, we have took two approaches for this problem: One using the classic approach of extracting features and then using a classifier. The second approach, which is implemented on the src file here is a Deep Learning approach feeding a CNN with a melspectrogram.
 
 You can check in the nbs folder on how we extracted the features, but here are the current results on the test set:
 

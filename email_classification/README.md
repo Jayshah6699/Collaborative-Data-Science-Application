@@ -3,6 +3,8 @@ We all come across many emails but ever wondered how these emails come in our in
 
 The dataset spam.csv has been added along with code files which is used to train a model.
 
+All the requirements for the code is mentioned in requirments.txt
+Use this command pip install -r requirements.txt to install python libraries
 
 Algortihm Used:
 MultinomialNB from Naive Bayes

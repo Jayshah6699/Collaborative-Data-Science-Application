@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import *
 from PIL import ImageTk, Image
-
 import numpy
 #load the trained model to classify sign
 from keras.models import load_model

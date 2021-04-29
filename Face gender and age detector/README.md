@@ -1,6 +1,6 @@
 # Face-gender-and-age-detector
 This is a python script for face gender and age detector for an image and also for live webcam footage.
-<p>In this Python Project, we had used Deep Learning to accurately identify the gender and age of a person from a single image of a face. we used the models trained by <a href="https://talhassner.github.io/home/projects/Adience/Adience-data.html">Tal Hassner and Gil Levi</a>. The identified faces may be predicted in gender either be one of ‘Male’ and ‘Female’, and the predicted age may be one of the following ranges- (0-3), (4-7), (8-14), (15-20), (21-36), (38-46), (48-58), (60-100) (8 nodes in the final softmax layer). It is very difficult to accurately guess an exact age from a single image because of factors like makeup, lighting, obstructions, and facial expressions. And so, we made this a classification problem instead of making it one of regression.</p>
+<p>In this Python Project, we had used Deep Learning to accurately identify the gender and age of a person from a single image of a face. we used the models trained by <a href="https://talhassner.github.io/home/projects/Adience/Adience-data.html">Tal Hassner and Gil Levi</a>. The identified faces may be predicted in gender either be one of ‘Male’ and ‘Female’, and the predicted age may be one of the following ranges- (0-3), (4-7), (8-14), (15-20), (21-36), (38-46), (48-58), (60-100) (8 nodes in the final softmax layer). It is very difficult to accurately guess an exact age from a single image because of factors like makeup, lighting, obstructions, and facial expressions. And so, we made this a classification problem instead of making it one of regression. </p>
 
 <h2>Dataset :</h2>
 <p>For this python project, I had used the Adience dataset; the dataset is available in the public domain and you can find it <a href="https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification">here</a>. This dataset serves as a benchmark for face photos and is inclusive of various real-world imaging conditions like noise, lighting, pose, and appearance. The images have been collected from Flickr albums and distributed under the Creative Commons (CC) license. It has a total numbers of 26,580 photos of 2,284 subjects in eight age ranges (as mentioned above) and is about 1GB in size. The models we used had been trained on this dataset.</p>
@@ -100,3 +100,5 @@ This is a python script for face gender and age detector for an image and also f
     Age: 21-36 years
     
 <img src="Image Example/Face gender and age detection woman2.PNG">
+
+
